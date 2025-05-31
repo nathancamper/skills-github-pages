@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effortless Electric LLC - Proposal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif; /* Assuming Inter is loaded or a fallback is acceptable */
+        }
+        .tab-button {
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .tab-button.active {
+            background-color: #0284c7; /* sky-600 */
+            color: white;
+        }
+        .tab-button:not(.active):hover {
+            background-color: #e5e7eb; /* gray-200 */
+        }
+        .content-section {
+            display: none;
+        }
+        .content-section.active {
+            display: block;
+        }
+         h1, h2, h3, h4 { margin-bottom: 0.75rem; font-weight: 600; }
+         h1 { font-size: 2.25rem; line-height: 2.5rem; } /* text-4xl */
+         h2 { font-size: 1.875rem; line-height: 2.25rem; } /* text-3xl */
+         h3 { font-size: 1.5rem; line-height: 2rem; } /* text-2xl */
+         h4 { font-size: 1.25rem; line-height: 1.75rem; } /* text-xl */
+         p { margin-bottom: 1rem; }
+         ul { list-style-position: inside; margin-bottom: 1rem; }
+         li { margin-bottom: 0.5rem; }
+    </style>
+</head>
+<body class="bg-stone-100 text-stone-800 min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
+
+    <div class="w-full max-w-5xl bg-white shadow-xl rounded-lg overflow-hidden">
+        <header class="bg-sky-700 p-6 text-white">
+            <div class="text-center mb-2">
+                <h1 class="text-3xl font-bold">Effortless Electric LLC</h1>
+                <p class="text-sky-200">Excellence in Electrical Solutions</p>
+            </div>
+            <h2 class="text-2xl font-semibold text-center">PROPOSAL: Ourisman Chevrolet of Marlow Heights - Utility Transformer Install - New Service</h2>
+            <p class="text-sm text-center text-sky-300">Date: 5/30/2025 | Proposal #: PRO-2025-001</p>
+        </header>
+
+        <nav class="bg-stone-50 border-b border-stone-300">
+            <ul class="flex flex-wrap justify-center -mb-px">
+                <li><button data-tab="overview" class="tab-button active text-sm font-medium text-center text-stone-600 p-4 border-b-2 border-transparent rounded-t-lg hover:text-sky-600 hover:border-sky-300">Overview</button></li>
+                <li><button data-tab="scope" class="tab-button text-sm font-medium text-center text-stone-600 p-4 border-b-2 border-transparent rounded-t-lg hover:text-sky-600 hover:border-sky-300">Scope & Deliverables</button></li>
+            </ul>
+        </nav>
+
+        <main class="p-6 md:p-8">
+            <section id="overview" class="content-section active">
+                <h3 class="text-2xl font-semibold text-sky-700 mb-6">Project Overview</h3>
+                <p class="text-stone-700 mb-6">This section provides a general introduction to the project proposal, outlining the involved parties and the project's context. It sets the stage for the detailed scope and deliverables that follow.</p>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-stone-50 p-6 rounded-lg border border-stone-200">
+                        <h4 class="text-xl font-semibold text-stone-700 mb-3">Prepared For:</h4>
+                        <p><strong>Client Name:</strong> Ourisman Chevrolet of Marlow Heights</p>
+                        <p><strong>Client Company:</strong> Ourisman Chevrolet</p>
+                        <p><strong>Client Address:</strong> 4400 Branch Ave. Temple Hills, MD 20748</p>
+                    </div>
+                    <div class="bg-stone-50 p-6 rounded-lg border border-stone-200">
+                        <h4 class="text-xl font-semibold text-stone-700 mb-3">Prepared By:</h4>
+                        <p><strong>Company Name:</strong> Effortless Electric LLC</p>
+                        <p><strong>Name/Title:</strong> Nathan / Project Manager</p>
+                        <p><strong>Address:</strong> 132 Seneca Ridge Drive, Sterling, VA 20164</p>
+                        <p><strong>Phone:</strong> 202-655-4117</p>
+                        <p><strong>Email:</strong> nathan@effortlesselectric.com</p>
+                        <p><strong>Website:</strong> https://www.effortlesselectric.com</p>
+                    </div>
+                </div>
+
+                <div class="bg-stone-50 p-6 rounded-lg border border-stone-200">
+                    <h4 class="text-xl font-semibold text-stone-700 mb-3">Introduction / Executive Summary</h4>
+                    <p>Dear Ourisman Chevrolet,</p>
+                    <p>Thank you for the opportunity to submit this proposal for the installation of a new electrical service at your Marlow Heights location. This project aims to install a new electrical service, enabling the efficient powering of Level 3 EV chargers. This document outlines our understanding of your needs, the proposed scope of work, and the deliverables required to successfully complete this project.</p>
+                    <p>At Effortless Electric LLC, we are committed to delivering high-quality results and exceptional service. We are confident that our expertise in electrical services and EV Charging makes us the ideal partner for this project.</p>
+                    <p>We look forward to the possibility of working with you and bringing your vision for this upgrade to life.</p>
+                    <p>Sincerely,</p>
+                    <p>Nathan</p>
+                </div>
+            </section>
+
+            <section id="scope" class="content-section">
+                <h3 class="text-2xl font-semibold text-sky-700 mb-6">Scope of Work & Deliverables</h3>
+                <p class="text-stone-700 mb-6">This section details the specific services, tasks, and tangible outcomes of the project. Clearly defining the scope and deliverables ensures mutual understanding and sets expectations for the project's execution and completion.</p>
+
+                <div class="bg-stone-50 p-6 rounded-lg border border-stone-200 mb-6">
+                    <h4 class="text-xl font-semibold text-stone-700 mb-3">Project Goal:</h4>
+                    <p class="text-stone-600">To complete comprehensive asphalt demolition, excavation, hauling, and new surface installation, alongside detailed electrical work, to facilitate an upgraded electrical service at the Ourisman Chevrolet of Marlow Heights location.</p>
+                </div>
+
+                <div class="grid md:grid-cols-1 gap-6 mb-6">
+                    <div class="bg-stone-50 p-6 rounded-lg border border-stone-200">
+                        <h4 class="text-xl font-semibold text-stone-700 mb-3">Tasks Included:</h4>
+                        <ul class="list-disc list-inside text-stone-600 space-y-1">
+                            <li>All labor, material, and supervision to complete the scope of work including:</li>
+                            <li><strong>Asphalt Demolition</strong>
+                                <ul class="list-circle list-inside ml-4">
+                                    <li>Saw cut all lines</li>
+                                    <li>Demolish - (56 sqft.) Primary Line, (25 sqft.) Secondary Line, (225 sqft.) Transformer Location</li>
+                                </ul>
+                            </li>
+                            <li><strong>Excavation</strong>
+                                <ul class="list-circle list-inside ml-4">
+                                    <li>Excavation to be conducted using machinery and hand digging.</li>
+                                    <li>Excavate - (7 YDS) Primary Line, (3.5 YDS) Secondary Line, (1 YD) Transformer Location, (4 YDS) Utility Bollards, Halo Grounding Ring excavation provision.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Hauling</strong>
+                                <ul class="list-circle list-inside ml-4">
+                                    <li>Remove excess spoils by means of hauling away</li>
+                                    <li>Haul (11 YDS) Soil, (6 YDS) Asphalt</li>
+                                </ul>
+                            </li>
+                            <li><strong>New Gravel</strong>
+                                <ul class="list-circle list-inside ml-4">
+                                    <li>Install new gravel according to plan</li>
+                                    <li>(2.5 tons) CR6 for trench lines, (6.5 tons) CR6 for transformer pad</li>
+                                </ul>
+                            </li>
+                            <li><strong>New Concrete</strong>
+                                <ul class="list-circle list-inside ml-4">
+                                    <li>Primary duct bank flow-able fill (2 YDS)</li>
+                                    <li>Secondary duct bank flow-able fill (1.5 YDS)</li>
+                                    <li>Utility Bollards 3000 PSI (4.5 YDS)</li>
+                                </ul>
+                            </li>
+                            <li><strong>New Asphalt</strong>
+                                <ul class="list-circle list-inside ml-4">
+                                    <li>Primary Asphalt (2 ton top)</li>
+                                    <li>Secondary Asphalt (1 ton top)</li>
+                                    <li>Transformer Area Asphalt (6.5 tons top)</li>
+                                </ul>
+                            </li>
+                            <li><strong>Electrical</strong>
+                                <ul class="list-circle list-inside ml-4">
+                                    <li>Underground PVC per plan</li>
+                                    <li>Grounding per plan including halo grounding ring</li>
+                                    <li>Secondary terminations as required</li>
+                                    <li>EV Charging Equipment terminations</li>
+                                </ul>
+                            </li>
+                            <li><strong>Equipment</strong>
+                                <ul class="list-circle list-inside ml-4">
+                                    <li>Mini Excavator w/ 12" bucket</li>
+                                    <li>Hydraulic Hammer</li>
+                                    <li>Tracked Skid Steer</li>
+                                    <li>Plate Tamper</li>
+                                    <li>Dump Trailer</li>
+                                    <li>Saw Cutter</li>
+                                    <li>Haul Trucks</li>
+                                </ul>
+                            </li>
+                            <li><strong>Miscellaneous</strong>
+                                <ul class="list-circle list-inside ml-4">
+                                    <li>(10) Utility Bollards</li>
+                                    <li>Pre-cast transformer pad</li>
+                                    <li>(10) Bollard Covers</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-stone-50 p-6 rounded-lg border border-stone-200">
+                     <h4 class="text-xl font-semibold text-stone-700 mb-3">Deliverables:</h4>
+                     <ul class="list-disc list-inside text-stone-600 space-y-1">
+                        <li>Completed site preparation, including asphalt demolition, excavation, hauling, new gravel, concrete, and asphalt installation as specified.</li>
+                        <li>Fully installed underground PVC and grounding system, including halo grounding ring.</li>
+                        <li>Completed secondary and EV Charging Equipment terminations.</li>
+                        <li>Installation of 10 utility bollards and one pre-cast transformer pad.</li>
+                        <li>[Any additional specific deliverables, e.g., project documentation, final inspection]</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-stone-800 text-stone-300 p-6 text-center">
+            <h4 class="text-lg font-semibold mb-2">Contact Information</h4>
+            <p>Effortless Electric LLC</p>
+            <p>Phone: 202-655-4117 | Email: nathan@effortlesselectric.com</p>
+            <p>Website: <a href="https://www.effortlesselectric.com" class="text-sky-400 hover:text-sky-300">https://www.effortlesselectric.com</a></p>
+            <p class="text-xs mt-4 text-stone-400">&copy; <script>document.write(new Date().getFullYear())</script> Effortless Electric LLC. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const contentSections = document.querySelectorAll('.content-section');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const tabId = button.dataset.tab;
+
+                tabButtons.forEach(btn => {
+                    btn.classList.remove('active');
+                    btn.classList.remove('bg-sky-600', 'text-white'); 
+                    btn.classList.add('text-stone-600');
+                });
+                button.classList.add('active');
+                button.classList.add('bg-sky-600', 'text-white');
+                button.classList.remove('text-stone-600');
+
+
+                contentSections.forEach(section => {
+                    section.classList.remove('active');
+                    if (section.id === tabId) {
+                        section.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
